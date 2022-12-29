@@ -116,24 +116,6 @@ a {
 }
 
 
-.about {
-  padding-top: 112px;
-  padding-bottom: 100px;
-  background-color: white;
-  text-align: center;
-}
-
-.about__title {
-font-weight: 500;
-font-size: 32px;
-line-height: var( --line-height-sm);
-}
-
-.about__discription {
-line-height: var(--line-height-lg);
-color: var(--color-secondary);
-/* margin-bottom: 50px; */
-}
 
 
 .experience {
@@ -152,10 +134,11 @@ color: var(--color-secondary);
 .experience-item {
   display: flex;
   gap: var(--gap);
+  align-items: center;
 }
 .experience-item__description {
   /* display: flex; */
-  line-height: var(--line-height-lg);
+
 }
 .experience-item__number {
   font-weight: 500;
@@ -163,7 +146,74 @@ color: var(--color-secondary);
   line-height: var(--line-height-sm);
 }
 .experience-item__text {
+  line-height: var(--line-height-lg);
 }
-.experience-item__image {
+/* .experience-item__image {
   order: -1;
+} */
+
+.section {
+  padding-top: 112px;
+  padding-bottom: 100px;
+  background-color: var(--color-white);
+  text-align: center;
+}
+
+.section__title {
+font-weight: 500;
+font-size: 32px;
+line-height: var( --line-height-sm);
+margin-bottom: 50px;
+}
+
+.section__discription {
+line-height: var(--line-height-lg);
+color: var(--color-secondary);
+}
+/* .process {
+  padding-top: 112px;
+  padding-bottom: 100px;
+  background-color: var(--color-white);
+  text-align: center;
+}
+
+.process__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: var(--line-height-sm);
+  margin-bottom: 50px;
+}
+
+.process__discription {
+  line-height: var(--line-height-lg);
+  color: var(--color-secondary);
+} */
+
+.process__container{
+  margin-bottom: 57px;
+}
+
+.process__video {
+  width: 100%;
+  height: 600px;
+  border: 0;
+}
+
+.footer {
+  background-color: var(--container-primary);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: var(--color-white);
+
+}
+
+.footer__name {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: var(--line-height-sm);
+  margin-bottom: 20px;
+}
+.footer__copyright {
+  font-size: 13px;
+  line-height: var(--line-height-lg);
 }
