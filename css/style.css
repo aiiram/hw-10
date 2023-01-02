@@ -32,6 +32,7 @@ html {
 a {
   text-decoration: none;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -44,6 +45,7 @@ a {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .container {
   width: min(100% - 40px, var(--container-primary));
   margin-inline: auto;
@@ -53,6 +55,7 @@ a {
 .container--sm {
   width: min(100% - 40px, var(--container-small));
 }
+
 .header {
   background-color: var(--color-gray-light);
   padding: 80px 0 141px;
@@ -68,8 +71,6 @@ a {
   gap: 42px;
 }
 
-
-
 .navbar__link {
   font-family: var(--font-family);
   letter-spacing: var(--letter-spacing);
@@ -78,16 +79,12 @@ a {
 }
 
 .navbar__link--active {
-
-
   font-weight: 500;
   color: var(--color-primary);
-
 }
 
 .content {
   max-width: var(--container-small);
-
 }
 
 .content__title {
@@ -95,9 +92,7 @@ a {
   font-weight: 500;
   font-size: 48px;
   line-height: 79px;
-  /* color: var(--color-black); */
-
-}
+  }
 
 .content__discription {
   line-height: 26px;
@@ -112,21 +107,16 @@ a {
   letter-spacing: 0.1em;
   width: 225px;
   min-height: 65px;
-  padding: 0,5em;
+  padding: 0.5em;
   background-color: var(--color-primary);
   color: var(--color-white);
-
 }
-
-
-
 
 .experience {
   background-color: var(--color-primary);
   color: var(--color-white);
   padding-top: 100px;
   padding-bottom: 100px;
-
 }
 
 .experience__container {
@@ -134,27 +124,23 @@ a {
   gap: var(--gap);
   justify-content: space-between;
 }
+
 .experience-item {
   display: flex;
   gap: var(--gap);
   align-items: center;
   flex-direction: row-reverse;
 }
-.experience-item__description {
-  /* display: flex; */
 
-}
 .experience-item__number {
   font-weight: 500;
   font-size: 21px;
   line-height: var(--line-height-sm);
 }
+
 .experience-item__text {
   line-height: var(--line-height-lg);
 }
-/* .experience-item__image {
-  order: -1;
-} */
 
 .section {
   padding: 112px 0 92px;
@@ -173,24 +159,6 @@ margin-bottom: 40px;
 line-height: var(--line-height-lg);
 color: var(--color-secondary);
 }
-/* .process {
-  padding-top: 112px;
-  padding-bottom: 100px;
-  background-color: var(--color-white);
-  text-align: center;
-}
-
-.process__title {
-  font-weight: 500;
-  font-size: 32px;
-  line-height: var(--line-height-sm);
-  margin-bottom: 50px;
-}
-
-.process__discription {
-  line-height: var(--line-height-lg);
-  color: var(--color-secondary);
-} */
 
 .process__container{
   margin-bottom: 49px;
